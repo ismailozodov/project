@@ -52,7 +52,7 @@ const GETSUBCATEGORY = (req, res) => {
 
 }
 
-const GET1 = (req, res) => {
+const GETY = (req, res) => {
     let subCategory = fs.readFileSync(path.join(process.cwd(),'src','database','subcategorys.json'), 'UTF-8')
     let products = fs.readFileSync(path.join(process.cwd(),'src','database','products.json'), 'UTF-8')
     let subCategoryJsonParse = JSON.parse(subCategory)
@@ -77,28 +77,11 @@ const GET1 = (req, res) => {
         }
     	return res.json( product || { message: 'not found!' } )
 
-    // res.send(subCategoryJsonParse)
 }
-
-
-
-
-
-// app.get('/posts/:post_id', (req, res) => {
-// 	let { post_id } = req.params
-// 	let post = postJsonParse.find( elem => elem.post_id == post_id )
-// 	return res.json( post || { message: 'not found!' } )
-// })
-
-// app.get('/posts/users/:user_id', (req, res) => {
-// 	let { user_id } = req.params
-// 	let posts = postJsonParse.find( elem => elem.user_id == user_id )
-// 	return res.json( posts || { message: 'not found!' } )
-// } )
 
 
 export {
     GETCATEGORY,
     GETSUBCATEGORY,
-    GET1
+    GETY
 }
