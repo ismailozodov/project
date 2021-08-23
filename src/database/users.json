@@ -1,0 +1,58 @@
+[
+    {
+        "userId": 1,
+        "username": "Doniyor",
+        "password": "Qwerty!789",
+        "birth": "04.01.2001",
+        "gender": 1,
+        "email": "404error@gmail"
+    },
+    {
+        "userId": 2,
+        "username": "Qizbola",
+        "password": "Qwerty!789",
+        "birth": "04.01.2002",
+        "gender": 2,
+        "email": "200ok@gmail.com"
+    },
+    {
+        "userId": 3,
+        "username": "kimdir",
+        "password": "Qwerty!789",
+        "birth": "04.01.2002",
+        "gender": 2,
+        "email": "200ok@gmail.com"
+    },
+    {
+        "userId": 4,
+        "username": "joshqin",
+        "password": "Qwerty!789",
+        "birth": "04.01.2002",
+        "gender": 2,
+        "email": "200okgmail.com"
+    },
+    {
+        "userId": 5,
+        "username": "eshmat",
+        "password": "Qwerty!789",
+        "birth": "04.01.2002",
+        "gender": 1,
+        "email": "200ok@gmail.com"
+    },
+    {
+        "userId": 6,
+        "username": "aelaeob",
+        "password": "Qwerty!789",
+        "birth": "04.01.2002",
+        "gender": 1,
+        "email": "200okgmail.com"
+    },
+    {
+        "userId": 7,
+        "username": "yyyyyyyy",
+        "password": "Qwerty!789",
+        "birth": "04.01.2002",
+        "gender": 1,
+        "email": "200okgmail.com"
+    }
+]

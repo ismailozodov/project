@@ -1,0 +1,27 @@
+[
+    {
+        "subCategoryId": 1,
+        "subCategoryName": "phones",
+        "categoryId": 1
+    },
+    {
+        "subCategoryId": 2,
+        "subCategoryName": "laptops",
+        "categoryId": 1
+    },
+    {
+        "subCategoryId": 3,
+        "subCategoryName": "boots",
+        "categoryId": 2
+    },
+    {
+        "subCategoryId": 4,
+        "subCategoryName": "shirts",
+        "categoryId": 2
+    },
+    {
+        "subCategoryId": 5,
+        "subCategoryName": "hats",
+        "categoryId": 2
+    }
+]

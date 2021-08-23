@@ -1,0 +1,50 @@
+[
+    {
+        "productId": 1,
+        "productName": "Redmi note 6 pro",
+        "subCategoryId": 1,
+        "model": "redmi",
+        "color": "black",
+        "price": 150
+    },
+    {
+        "productId": 2,
+        "productName": "12 pro max",
+        "subCategoryId": 1,
+        "model": "redmi",
+        "color": "black",
+        "price": 1150
+    },
+    {
+        "productId": 3,
+        "productName": "macbooc pro",
+        "subCategoryId": 2,
+        "model": "apple",
+        "color": "space-gray",
+        "price": 2500
+    },
+    {
+        "productId": 4,
+        "productName": "570",
+        "subCategoryId": 3,
+        "model": "nb",
+        "color": "gray",
+        "price": 150
+    },
+    {
+        "productId": 5,
+        "productName": "t-shirt",
+        "subCategoryId": 4,
+        "model": "futbolka",
+        "color": "white",
+        "price": 15
+    },
+    {
+        "productId": 6,
+        "productName": "note 21+",
+        "subCategoryId": 1,
+        "model": "Samsung",
+        "color": "black",
+        "price": 1050
+    }
+]
