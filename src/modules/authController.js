@@ -5,13 +5,7 @@ import jwt from '../lib/jwt.js'
 const REGISTER = (req, res) => {
     try {
         let data = req.body
-            let {
-                username,
-                password,
-                email,
-                birth,
-                gender
-            } = data
+            let { username, password, email, birth, gender } = data
             let users = fs.readFileSync(path.join(process.cwd(), 'src', 'database', 'users.json'), 'UTF-8')
             users = users ? JSON.parse(users) : []
             let user = users.find(user => user.username === username)
@@ -74,10 +68,7 @@ const REGISTER = (req, res) => {
 
 const LOGIN = (req, res) => {
         let data = req.body
-        let {
-            username,
-            password
-        } = data
+        let { username, password } = data
         let users = fs.readFileSync(path.join(process.cwd(), 'src', 'database', 'users.json'), 'UTF-8')
         users = users ? JSON.parse(users) : []
         let user = users.find(user => user.username === username && user.password === password)
